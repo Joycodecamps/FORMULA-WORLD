@@ -1,0 +1,60 @@
+body{
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+#fixed{
+   background-attachment: fixed;
+   background-color: black;
+opacity: 30%;
+border-bottom-left-radius: 100vh;
+border-bottom-right-radius: 100vh;
+}
+.form{
+    width: 50vh;
+    margin:10vh;
+}
+#footer{
+    background-color: rgb(160, 167, 167);
+    width: 100%;
+    height: 5vh;
+    bottom: 0px;
+    z-index: initial;
+    position:fixed;
+}
+.map{
+    margin: 10vh;
+    border-radius: 5vh;
+}
+
+.second_half{
+    background: rgb(78, 61, 94) ;
+    opacity:20;
+}
+.social-icons a i{
+   /* position: absolute;*/
+    top:0px;
+    left:15vh;
+    margin: 5vh;
+    font-size:5vh;
+    cursor:pointer;
+}
+.social-icons a i:hover{
+background: black;
+}
+
+.feedback {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,250,0.4);
+    width:40%;
+    height: 38vh;
+    margin-left: 15vh;
+    margin-bottom: 10vh;
+    border-radius: 5vh;
+}
+.email , .btn{
+margin-left: 7vh;
+}/*
+#feedback{
+    size: 8vh;
+    height: 5vh;
+}
